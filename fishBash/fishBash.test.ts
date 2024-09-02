@@ -3,7 +3,7 @@ import { fishBash } from './fishBash';
 const consoleLogSpy = jest.spyOn(console, 'log').mockImplementation();
 
 // FishBash Function Tests
-describe('fishBash', () => {
+describe('FishBash Test', () => {
   // Reset console.log mock before each test
   beforeEach(() => {
     consoleLogSpy.mockClear();
